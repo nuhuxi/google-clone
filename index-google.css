@@ -5,6 +5,9 @@ html, body{
 body{
 	font-family: arial, sans-serif;
 	font-size: 12px;
+	width:100%; 
+	text-align:center; 
+	margin: 0 auto -4em;
 
 }
 
@@ -22,12 +25,20 @@ a{
 		color: #404040;
 		text-decoration: none;
 		font-size: 14px;
-
 }
 
 a:hover {
 		text-decoration: underline;
 	}
+
+ #google_search_button:hover{
+	box-shadow: 1px 1px 5px #888888;
+	}
+
+ #feeling_lucky_button:hover{
+	box-shadow: 1px 1px 5px #888888;
+	}
+
 .main {
 	/*height: 660px;*/
 	height=100%;
@@ -40,7 +51,7 @@ a:hover {
 #top-wrapper {
 	height: 40px;
 	width: 100%;
-	top: 15px;
+	padding-top: 15px;
 	text-align: right;
 	vertical-align: middle;
 }
@@ -89,16 +100,16 @@ a:hover {
  }
 
  #google_search_button {
-
+  	font-size: 12px;
   	width: 100px;
   	height: 25px;
-  	font-size: 12px;
   	font-weight: bold;
   	vertical-align: middle;
   	border: 1px dotted gray;
   	display: inline;
   	padding: 5px;
   	border: 1px solid #D8D8D8;
+	/*box-shadow: 10px 10px 5px #888888; */
  }
  #g_search_space_2 {
 
@@ -115,6 +126,7 @@ a:hover {
   	display: inline;
   	vertical-align: middle;
   	border: 1px solid #D8D8D8;
+  	/*box-shadow: 10px 10px 5px #888888; */
 
  }
 
