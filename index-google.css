@@ -30,11 +30,12 @@ a:hover {
 	}
 .main {
 	/*height: 660px;*/
-	height=100%;
+
 	margin: 0 auto -4em;
 	width:800px;
 	/*display: inline-block; */
 	position: center;
+	margin: 0px 0px -41px 0px;
 }
 
 #top-wrapper {
@@ -54,12 +55,13 @@ a:hover {
 
 .footer-wrapper {
 	top-border: 2px dotted #404040;
-    height: 30px;
+    height: 41px;
 	height: auto !important;
     border-top: 1px solid #D8D8D8;
     min-height: 100%;
 	height: auto !important;
 	margin: 0 auto -4em; 
+	padding: 0px 0px 41px 0px;
 
 	/* from thinkful guy
 	position: relative;
